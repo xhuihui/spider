@@ -8,7 +8,7 @@
     </appender>
     
     <appender name="phone" class="org.apache.log4j.RollingFileAppender">
-        <param name="file" value="D:/github/python/phone.txt"/>
+        <param name="file" value="data/phone.txt"/>
         <param name="append" value="true"/>
         <param name="maxFileSize" value="100MB"/>
         <param name="maxBackupIndex" value="100"/>
@@ -17,7 +17,7 @@
         </layout>
     </appender>
     <appender name="phone2" class="org.apache.log4j.RollingFileAppender">
-        <param name="file" value="D:/github/python/phone2.txt"/>
+        <param name="file" value="data/phone2.txt"/>
         <param name="append" value="true"/>
         <param name="maxFileSize" value="100MB"/>
         <param name="maxBackupIndex" value="100"/>

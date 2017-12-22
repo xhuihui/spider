@@ -24,11 +24,11 @@ public class PhoneGet {
 	static Logger log=Logger.getLogger("phone");
 	static Logger log2=Logger.getLogger("phone2");
 	public static void main(String[] args) throws ClientProtocolException, IOException {
-		
-		for(int i=1;i<420;i++){
-			log.info("page:"+i);
-			getPage("http://www.ljia.net/jingjiren/p-"+i+".html");
-		}
+		getPhone("D:/github/spider/data/2017-12-22.txt");
+//		for(int i=1;i<2;i++){
+//			log.info("page:"+i);
+//			getPage("http://www.ljia.net/jingjiren/p-"+i+".html");
+//		}
 	}
 	public static  void getPage(String url) throws ClientProtocolException, IOException{
 		HttpGet httpGet = new HttpGet(url);
